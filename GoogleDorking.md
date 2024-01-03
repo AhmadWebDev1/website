@@ -1,12 +1,12 @@
-| **المرشح**     | **الوصف**                                         | **المثال**                         |
+| **Filter**      | **Description**                                    | **Example**                          |
 | :-------------- | :-------------------------------------------------- | :----------------------------------- |
-| `site:`         | يبحث فقط داخل الموقع المحدد.                      | `site:example.com`                   |
-| `filetype:`     | يجد أنواع معينة من الملفات.                       | `filetype:pdf`                       |
-| `intitle:`      | يبحث عن صفحات تحتوي على كلمة معينة في العنوان.   | `intitle:"index of"`                 |
-| `inurl:`        | يبحث عن كلمة معينة في عنوان URL.                  | `inurl:login`                        |
-| `intext:`       | يجد صفحات تحتوي على كلمة معينة في النص.          | `intext:"كلمة مفتاحية"`            |
-| `related:`      | يعرض مواقع متعلقة بالنطاق المحدد.                | `related:example.com`                |
-| `cache:`        | يعرض النسخة المخزنة من موقع على Google.          | `cache:example.com`                  |
-| `define:`       | يوفر تعاريف للكلمة المحددة.                       | `define:كلمة`                       |
-| `ext:`          | يجد ملفات بامتداد معين.                           | `ext:txt`                            |
-| `-` (ناقص)     | يستبعد كلمات معينة من البحث.                       | `تكنولوجيا -أخبار`                 |
+| `site:`         | Searches within the specified site.                 | `site:example.com`                   |
+| `filetype:`     | Finds specific file types.                          | `filetype:pdf`                       |
+| `intitle:`      | Looks for pages with a certain word in the title.   | `intitle:"index of"`                 |
+| `inurl:`        | Searches for a specific word in the URL.            | `inurl:login`                        |
+| `intext:`       | Finds pages with a specific word in the text.       | `intext:"keyword"`                   |
+| `related:`      | Shows sites related to the specified domain.        | `related:example.com`                |
+| `cache:`        | Displays Google's cached version of a site.         | `cache:example.com`                  |
+| `define:`       | Provides definitions of the specified word.         | `define:word`                        |
+| `ext:`          | Finds files with a specific extension.              | `ext:txt`                            |
+| `-` (minus)     | Excludes certain words from the search.             | `technology -news`                   |
